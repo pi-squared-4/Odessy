@@ -1,0 +1,106 @@
+/* body {
+    background: #fbfbfd;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+
+.footer {
+  /* position: relative;
+  /* height: 100%; */
+  overflow: hidden;
+  background-color: #fbfbfd;
+}
+
+
+.footer-bg {
+  position: absolute;
+  bottom: 0;
+  background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png")
+    no-repeat scroll center 0;
+  width: 100%;
+  height: 366px;
+  /* min-height: 100%; */
+  top: 100%;
+  background-color: #fbfbfd;
+}
+
+.volks {
+  background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif")
+    no-repeat center center;
+  width: 330px;
+  height: 105px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 24%;
+  left: 30%;
+  -webkit-animation: myfirst 22s linear infinite;
+  animation: myfirst 22s linear infinite;
+  /* visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: fadeInLeft; */
+}
+
+.cycle {
+  background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif")
+    no-repeat center center;
+  width: 88px;
+  height: 100px;
+  background-size: 100%;
+  bottom: 20%;
+  left: 38%;
+  position: absolute;
+  -webkit-animation: myfirst 30s linear infinite;
+  animation: myfirst 30s linear infinite;
+}
+
+.footer-bottom-text {
+  color: #7f88a6;
+  font-family: Raleway;
+  font-weight: 300;
+  position: absolute;
+  top: 75%;
+  left: 17%;
+}
+
+.footer-bottom-sign {
+  font-family: Raleway;
+  font-weight: 200;
+  position: absolute;
+  top: 75%;
+  left: 68%;
+}
+
+.footer-quote h1 {
+  font-family: Caveat;
+  letter-spacing: 4px;
+  margin-top: 2%;
+  color: #9c9c9e;
+}
+
+/* style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;" */
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}

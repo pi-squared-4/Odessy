@@ -1,0 +1,8 @@
+{
+    "env": {
+        "DB_USER": "pi",
+        "DB_PASSWORD": "Aman4545",
+        "DB_NAME": "MernApp",
+        "JWT_KEY": "supersecret_dont_share"
+    }
+}

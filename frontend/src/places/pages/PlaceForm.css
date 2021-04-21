@@ -1,0 +1,14 @@
+.place-form {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  /* margin-top: 40; */
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background-color: rgba(250, 249, 238, 0.76);
+  /* background-image: linear-gradient(62deg, #8ec5fc9f 0%, #e0c3fc91 100%); */
+  ;
+}
