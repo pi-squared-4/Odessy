@@ -1,2 +1,2 @@
-# Odessy
+# Odyssey
 Will update later.
